@@ -25,4 +25,4 @@ uglyfont.o : uglyfont.c $(hdrs)
 		$(cc) -c uglyfont.c $(cdebug) $(cvars) -o uglyfont.o
 
 clean: 
-	del r_model.o mshade.o subfunc.o anima.o uglyfont.o animation.exe
+	rm r_model.o mshade.o subfunc.o anima.o uglyfont.o animation.exe
